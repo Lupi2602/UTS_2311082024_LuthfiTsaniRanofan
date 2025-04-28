@@ -1,0 +1,32 @@
+
+    .pagination-container {
+        display: flex;
+        justify-content: flex-end; /* kanan */
+        margin-top: 20px;
+    }
+
+    .pagination-container nav {
+        display: flex;
+        gap: 5px;
+    }
+
+    .pagination-container nav a,
+    .pagination-container nav span {
+        padding: 8px 12px;
+        background-color: #f1f5f9;
+        color: #333;
+        border-radius: 6px;
+        font-size: 14px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .pagination-container nav a:hover {
+        background-color: #dbeafe;
+    }
+
+    .pagination-container nav span[aria-current="page"] {
+        background-color: #2563eb;
+        color: #fff;
+        font-weight: bold;
+    }
